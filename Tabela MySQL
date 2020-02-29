@@ -1,0 +1,11 @@
+Create DATABASE Projeto;
+
+Use Projeto;
+
+Create Table tabela(
+	idCliente int Primary key Auto_Increment,
+    Nome varchar(30) not null,
+    Telefone varchar(12) not null,
+    CPF int(11) not null,
+    Nascimento date
+)
